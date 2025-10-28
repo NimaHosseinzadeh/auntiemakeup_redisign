@@ -400,7 +400,9 @@ header{
 /* ------------------- */
 
 /* Main Section 3 */
-
+.main_section3_1{
+    display: none;
+}
 
 .main_section3{
     margin-top: 80px;
@@ -1402,7 +1404,6 @@ footer{
 
 /* Main Section 3 */
 
-
 .main_section3{
     margin-top: 100px;
 
@@ -1595,5 +1596,192 @@ footer{
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------ */
+/* --------------------------------------------- */
+/* -------------------------------- */
+/* ------------------- */
+
+/* Main Section 4 */
+
+.main_section4{
+    margin-top: 50px;
+
+}
+
+.main_section4_title{
+    text-align: center;
+}
+
+.main_section4_more_product{
+    display: none;
+}
+
+.main_section4_container{
+    display: none;
+}
+
+
+
+.main_section3_1{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.main_section3_1_more_product{
+    display: none;
+}
+
+.main_section3_1_more_product_img{
+    width: 18px;
+    transform: rotate(90deg);
+    margin-right: 2px;
+}
+
+.main_section3_1_more_product:hover{
+    color: #333333;
+}
+
+
+
+.main_section3_1_product{
+    background-color: #a9aaf9;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main_section3_1_title{
+    display: none;
+}
+
+.main_section3_1_product_span{
+    display: none;
+}
+
+.main_section3_1_product_box1{
+    margin-right: 10px;
+    position: relative;
+    top: 30px;
+}
+
+.main_section3_1_product_top_offer{
+    display: none;
+}
+
+
+
+.main_section3_1_product_box1 ,.main_section3_1_product_box2 {
+    height: 290px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px #aaa4a4;
+    cursor: pointer;
+}
+
+.main_section3_1_product_box3 , .main_section3_1_product_box4{
+    display: none;
+}
+
+.main_section3_1_product_box1 img{
+    width: 130px;
+    height: 130px;
+}
+
+
+.main_section3_1_product_box2 img{
+    width: 130px;
+    height: 130px;
+}
+.main_section3_1_product_box2{
+    position: relative;
+    right: 10px;
+    top: 30px;
+
+}
+
+.main_section3_1_product_top{
+    position: relative;
+    height: 60%;
+}
+
+.main_section3_1_product_top_pic{
+    width: 185px;
+    height: 164px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.main_section3_1_product_top_title{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.main_section3_1_product_bottom{
+    height: 40%;
+    display: flex;
+    align-content: center;
+}
+
+.main_section3_1_product_bottom_right{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.main_section3_1_product_bottom_right_btn{
+    width: 86px;
+    height: 40px;
+    font-size: 0.6rem;
+    margin-right: 10px;
+    margin-top: 25px;
+    background-color: #FECDF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.main_section3_1_product_bottom_right_btn:hover{
+    background-color: rgb(255, 176, 248)
+}
+
+.main_section3_1_product_bottom_left{
+    width: 50%;
+    margin-top: 65px;
+}
+
+.main_section3_1_product_bottom_left_none_offer{
+    display: none;
+}
+
+.main_section3_1_product_bottom_left_offer{
+    margin-right: 10px;
+    font-size: 0.750rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
