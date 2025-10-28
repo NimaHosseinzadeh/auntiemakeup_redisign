@@ -108,6 +108,10 @@ header{
     cursor: pointer;
 }
 
+
+.icon_mb{
+    display: none;
+}
 .header_top_left{
     width: 45%;
     display: flex;
@@ -1089,12 +1093,29 @@ footer{
 }
 
 .header_top_left_container{
-    background-color:#EDF2FB ;
-    width: 50px;
-    box-shadow: none;
-    margin-left: 20px;
-    
+    display: none;
 }
+
+.icon_mb{
+    display: flex;
+    position: relative;
+}
+
+.icon_mb img{
+    width: 30px;
+}
+.icon_mb_1{
+    position: absolute;
+    right: 32px;
+    top: 10px;
+}
+
+.icon_mb_2{
+    position: absolute;
+    right: 1px;
+    top: 10px;
+}
+
 
 .header_top_left_container_box1 , .header_top_left_container_box2 ,  .header_top_left_container_box3{
     padding-left: 5px;
@@ -1106,15 +1127,13 @@ footer{
 
 
 .header_top_left_container_box2_img{
-    cursor: pointer;
-    width: 25px;
+    display: none;
     
     
 }
 
 .header_top_left_container_box3_img{
-    cursor: pointer;
-    width: 25px;
+    display: none;
     
 }
 
@@ -1808,7 +1827,7 @@ footer{
 }
 
 .main_section5_container_top ,.main_section5_container_bottom, img{
-    width: 55px ;
+    width: 70px ;
     cursor: pointer;
     margin: 0 10px;
 }
@@ -1893,7 +1912,6 @@ footer{
 .footer_section_end{
     display: none;
 }
-
 
 
 
