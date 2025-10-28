@@ -1553,7 +1553,7 @@ footer{
 .main_section3_product_bottom_right_btn{
     width: 86px;
     height: 40px;
-    font-size: 0.6rem;
+    font-size: 0.525rem;
     margin-right: 10px;
     margin-top: 25px;
     background-color: #C9D9F9;
@@ -1563,6 +1563,7 @@ footer{
     border-radius: 7px;
     padding: 0 5px;
     font-weight: bold;
+    
 }
 
 .main_section3_product_bottom_right_btn:hover{
@@ -1765,7 +1766,7 @@ footer{
 .main_section3_1_product_bottom_right_btn{
     width: 86px;
     height: 40px;
-    font-size: 0.6rem;
+    font-size: 0.525rem;
     margin-right: 10px;
     margin-top: 25px;
     background-color: #FECDF7;
@@ -1871,7 +1872,7 @@ footer{
     align-items: center;
     height: 60px;
     color: #3c4858;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     cursor: pointer;
     width: 100%;
 }
@@ -1895,7 +1896,7 @@ footer{
     margin-right: 40px;
     padding: 10px 0 ;
     display: none;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 
