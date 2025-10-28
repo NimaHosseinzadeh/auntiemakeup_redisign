@@ -1607,8 +1607,13 @@ footer{
 /* Main Section 4 */
 
 .main_section4{
-    margin-top: 50px;
+    display: none;
 
+}
+
+.main_section3_1_title{
+    text-align: center;
+    display: flex;
 }
 
 .main_section4_title{
@@ -1773,11 +1778,121 @@ footer{
 
 
 
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------ */
+/* --------------------------------------------- */
+/* -------------------------------- */
+/* ------------------- */
+
+/* Main Section 6 */
+
+
+.main_section6{
+    margin-top: 100px;
+}
+
+.main_section5_title{
+    text-align: center;
+}
+
+.main_section5_container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main_section5_container_top , .main_section5_container_bottom{
+    display: flex;
+}
+
+.main_section5_container_top ,.main_section5_container_bottom, img{
+    width: 55px ;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------ */
+/* --------------------------------------------- */
+/* -------------------------------- */
+/* ------------------- */
+
+/* Main Section 7 */
 
 
 
+.main_section7{
+    margin-top: 100px;
+}
+
+.section7_title{
+    text-align: center;
+}
+
+.section_7_box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.section_7_box_sec1 , .section_7_box_sec2 , .section_7_box_sec3{
+    background-color: #f0e5ee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: #3c4858;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.section_7_box_sec1 img,
+.section_7_box_sec2 img,
+.section_7_box_sec3 img {
+    width: 15px;
+    margin-left: 30px;
+}
+
+.section_7_box_sec1 h3,
+.section_7_box_sec2 h3,
+.section_7_box_sec3 h3 {
+    margin-right: 20px;
+}
 
 
+.show1 , .show2 , .show3{
+    color: #8492a6;
+    margin-right: 40px;
+    padding: 10px 0 ;
+    display: none;
+    font-size: 0.8rem;
+}
+
+
+.in{
+    display: inline-block;
+}
+
+
+
+footer{
+    display: none;
+}
+
+
+.footer_section_end{
+    display: none;
+}
 
 
 
